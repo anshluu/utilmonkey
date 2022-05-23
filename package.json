@@ -1,0 +1,28 @@
+{
+  "name": "utilmonkey",
+  "version": "4.5.3",
+  "description": "Simple utility with features like sleep, mathamathics, simple server starting, and more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/data.js",
+  "keywords": [
+    "multitool",
+    "utils",
+    "utilities",
+    "npm multitool"
+  ],
+  "homepage": "https://website-not-made-yet/",
+  "author": "cyberdev_",
+  "license": "non-redistributable",
+  "dependencies": {
+    "shelljs": "^0.8.5",
+    "tape": "^5.5.3",
+    "yargs": "^17.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberdev101/utilmonkey"
+  }
+}
