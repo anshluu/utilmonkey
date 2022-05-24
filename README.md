@@ -1,4 +1,4 @@
-# utilmonkey docs
+# utilmonkey docs: npmjs.com/utilmonkey
 
 docs coming soon*
 
