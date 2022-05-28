@@ -1,3 +1,3 @@
-# UtilMonkey NPM Package
-
-Documentation Coming Soon. If you can already understand it, great!
+# © 2022 UtilMonkey NPM Package. All Rights Reserved.
+ 
+ Helpful contributions are appreciated!
