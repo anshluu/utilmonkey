@@ -15,5 +15,3 @@ require('yargs')
   })
   .help()
   .argv
-  
-console.log('In Development')
