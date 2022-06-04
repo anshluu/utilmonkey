@@ -17,8 +17,6 @@
   "author": "cyberdev_",
   "license": "non-redistributable",
   "dependencies": {
-    "shelljs": "^0.8.5",
-    "tape": "^5.5.3",
     "yargs": "^17.5.1"
   },
   "repository": {

@@ -1,17 +1,29 @@
 #!/usr/bin/env node
 require('yargs')
-  .scriptName("util-monkey")
+  .scriptName("utilmonkey")
   .usage('$0 <cmd> [args]')
-  .command('hello [name]', 'Get a free hello!', (yargs) => {
-    yargs.positional('name', {
+  .command('server [file] [port]', 'Start an http server for your html file.', (yargs) => {
+    yargs.positional('file', {
       type: 'string',
-      default: 'User',
-      describe: 'get a free hello!'
+      default: 'index.html',
+      describe: 'The file to deploy on the http server.'
+    }).positional('file', {
+      type: 'string',
+      default: '5050',
+      describe: 'The port to deploy on the http server'
     })
   }, function (argv) {
-    console.log('hello ', argv.name, ' how are you?')
-    sleep(5000)
-    console.error('Set!')
+    const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
   })
   .help()
   .argv
