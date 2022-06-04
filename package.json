@@ -1,6 +1,6 @@
 {
   "name": "utilmonkey",
-  "version": "4.5.5",
+  "version": "4.5.6",
   "description": "Simple utility with features like sleep, mathamathics, simple server starting, and more!",
   "main": "index.js",
   "scripts": {
