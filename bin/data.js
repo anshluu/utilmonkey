@@ -13,17 +13,36 @@ require('yargs')
       describe: 'The port to deploy on the http server'
     })
   }, function (argv) {
-    const express = require('express')
+
+
+
+
+
+
+
+
+
+const express = require('express')
 const app = express()
-const port = 3000
+var port = argv.port
+var  fpath = argv.file
+if (argv.port == undefined) {var port = 5050}
+if (argv.fpath == undefined) {var fpath = "index.html"}
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.sendFile( + "" + fpath)
 })
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+
+
+
+
+
   })
   .help()
   .argv

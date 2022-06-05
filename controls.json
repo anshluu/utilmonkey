@@ -1,0 +1,9 @@
+{
+"SUPER-DANGEROUS-SETTINGS-TO-SECURE-HTTP-CONNECTION-TO-EXTERNAL-SOURCES-DO-NOT-DISABLE-UNLESS-YOU-KNOW-WHAT-YOUR-DOING": "enabled",
+"type": "package",
+"lock":"false",
+"thread":"false",
+"bin":"true",
+"module": "@modules/true",
+"config":"@config/true"
+}
