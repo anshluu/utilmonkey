@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
-const port = 2022
+var today = new Date();
+var yyyy = today.getFullYear();
+const port = yyyy
 
 app.get('/', (req, res) => {
     var today = new Date();
@@ -14,4 +16,7 @@ app.get('/', (req, res) => {
 
 app.listen(port, (err) => {
     if (err) {console.log(err)}
+    var today = new Date();
+    var yyyy = today.getFullYear();
+    console.log('Successfully Launched HTTP server on port ' + yyyy)
 })

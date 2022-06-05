@@ -4,7 +4,8 @@
   "description": "Simple utility with features like sleep, mathamathics, simple server starting, and more!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./library/test.js",
+    "build": "node ./library/build.js"
   },
   "bin": "./bin/data.js",
   "keywords": [
